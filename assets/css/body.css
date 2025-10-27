@@ -1,0 +1,50 @@
+main {
+    padding: 20px 160px;
+    display: flex;
+    flex-direction: column;
+}
+
+main h1 {
+    font-size: 60px;
+    margin-bottom: 16px;
+}
+
+main .p_style {
+    margin-top: 24px;
+    font-size: 16px;
+    color: #96734f;
+    line-height: 24px;
+}
+
+main section {
+    display: flex;
+}
+
+main .main_section img {
+    height: 280px;
+    width: 400px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+main .info_main {
+    padding-left: 30px;
+    flex-direction: column;
+}
+
+main .info_main .button {
+    margin-top: 40px;
+    width: 100%;
+}
+
+main .libros_anteriores {
+    gap: 24px;
+    margin-top: 40px;
+}
+
+main .libros_anteriores article img {
+    height: 213px;
+    width: 160px;
+    border-radius: 8px;
+    object-fit: cover;
+}
