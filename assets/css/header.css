@@ -2,38 +2,58 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
-    background-color: #f8f8f8;
+    padding: 20px 40px;
+    background-color: white;
+    border-bottom: 1px solid #f0f0f0;
 }
 
 header div.logo {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
     display: flex;
     align-items: center;
-    gap: 16px;
+    gap: 10px;
 }
 
 header div.logo img {
-    height: 16px;
-    width: 16px;
+    height: 30px;
+    width: 30px;
 }
 
 header nav ul {
     list-style: none;
     display: flex;
-    gap: 32px;
+    gap: 30px;
     margin: 0;
     padding: 0;
-}
-
-header nav ul li {
-    display: flex;
     align-items: center;
 }
 
-header nav ul li img {
+header nav ul li a {
+    color: #666;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #ab5e17;
+}
+
+/* Nuevo contenedor para el botón y el avatar */
+.search_bar {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.search_bar li {
+    list-style: none;
+}
+
+.search_bar img {
     height: 40px;
     width: 40px;
-    border-radius: 20px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 1px solid #ddd;
 }
